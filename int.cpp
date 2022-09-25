@@ -6,7 +6,7 @@ using namespace std;
 
 double calculate_integral(const double step) {
     // init x range from 1 to 2 
-    double x_limit = 1;
+    double x_limit = 2;
     size_t num = static_cast<size_t>(1 / step);
     // define function value calculation
     auto y_value = [](const double x_value) -> double 
